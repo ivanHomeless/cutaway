@@ -1,0 +1,113 @@
+.client {
+    background: #dde4e7;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+
+    .cutaway-edit {
+        display: flex;
+        padding: 10px 10px 0 0 ;
+        margin: 0;
+
+        &-link svg {
+            color: #000;
+        }
+    }
+
+    .cutaway-avatar {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .cutaway-info {
+        text-align: center;
+
+    }
+
+    .cutaway-info-name {
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    .cutaway-info-description {
+        margin-bottom: 5px;
+        font-size: 14px;
+        line-height: 21px;
+        color: #9597a1;
+    }
+
+    .cutaway-info-form {
+        label {
+            text-align: left;
+            padding-left: 0;
+            font-size: 14px;
+            line-height: 18px;
+        }
+        input {
+            width: 100%;
+        }
+    }
+
+    .cutaway-btn-save {
+        background: none;
+        border: none;
+    }
+
+    .contact-button {
+        position: relative;
+        display: flex;
+        margin-bottom: 15px;
+        padding: 10px 60px;
+        text-decoration: none;
+        border-radius: 16px;
+    }
+
+    .contact-logo {
+        position: absolute;
+        width: 20px;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+
+        flex-direction: column-reverse;
+        justify-content: center;
+
+        &-img {
+            width: 100%!important;
+        }
+    }
+
+    .contact-text-top {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .contact-text-bottom {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
+    .nav-bottom {
+        padding: 0;
+        text-align: center;
+        list-style-type: none;
+    }
+
+    .cutaway-buttons-list {
+        list-style: none;
+        padding: 0;
+    }
+}
+
